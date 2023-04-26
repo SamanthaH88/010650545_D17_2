@@ -1,0 +1,19 @@
+
+[switches]
+10.10.1.5
+10.10.1.6
+10.10.1.7
+10.10.1.8
+10.10.1.24
+[testbox1]
+10.10.1.74
+[testbox2]
+10.10.1.75
+[windows1]
+10.10.1.35 ansible_user=student ansible_password=P@ssw0rd ansible_connection=winrm ansible_winrm_transport=ntlm ansible_winrm_server_cert_validation=ignore 
+[windows2]
+10.10.1.36 ansible_user=student ansible_password=P@ssw0rd ansible_connection=winrm ansible_winrm_transport=ntlm ansible_winrm_server_cert_validation=ignore ansible_winrm_port=5985
+[windows3]
+10.10.1.43 ansible_user=student ansible_password=P@ssw0rd ansible_connection=winrm ansible_winrm_transport=ntlm ansible_winrm_server_cert_validation=ignore ansible_winrm_port=5985
+[windows4]
+10.10.1.29 ansible_user=student ansible_password=P@ssw0rd ansible_connection=winrm ansible_winrm_transport=ntlm ansible_winrm_server_cert_validation=ignore ansible_winrm_port=5985
